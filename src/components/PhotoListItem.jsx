@@ -7,9 +7,7 @@ class PhotoListItem extends Component {
         const { photo } = this.props;
         return ( 
                 <div className="ui segment">
-                    <div className="ui medium images">
-                        <img src={photo.urls.full} alt='Nworie Chikwado react project with context' />
-                    </div>
+                    <img src={photo.urls.regular} alt='Nworie Chikwado react project with context' />
                 </div>
          );
     }
